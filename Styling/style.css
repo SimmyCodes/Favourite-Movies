@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(6, 5, 5);
+}
+
+h1{
+    color: rgb(232, 19, 193); text-align: center; border-style:double; background: black;
+}
+h2{
+    border-style: solid; background-color: black;
+   
+}
+
+#Mov1{
+    color: rgb(243, 242, 240);
+}
+
+#Mov2{
+    color: rgb(239, 247, 18);
+}
+
+#Mov{
+    color: rgb(203, 79, 79);
+}
+
+#info{
+    border-top-style: solid;
+    border-bottom-style: solid;
+
+}
+p{
+ color: rgb(241, 23, 223);
+}
+
+#pic{
+    animation: mySlide;
+    animation-duration: 10s;
+}
+
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
